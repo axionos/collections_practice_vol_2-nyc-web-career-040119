@@ -62,7 +62,7 @@ def organize_schools (schools)
   schools.each do |school, location|
     location.each do |symbol, city|
       if school_list[location] == nil
-        school_list[location] << [school]
+        school_list[location] = [school]
       else
 
       end
