@@ -70,3 +70,4 @@ def organize_schools (schools)
   end
   school_list
 end
+binding.pry
