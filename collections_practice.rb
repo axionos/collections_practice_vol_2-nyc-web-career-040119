@@ -61,6 +61,11 @@ def organize_schools (schools)
   school_list = {}
   schools.each do |school, location|
     location.each do |symbol, city|
+      if school_list[location] == nil
+        school_list[location] << [school]
+      else
+
+      end
     end
   end
 end
