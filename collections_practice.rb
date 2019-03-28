@@ -61,7 +61,6 @@ def organize_schools (schools)
   school_list = {}
   schools.each do |school, location|
     location.each do |symbol, city|
-      binding.pry
     end
   end
 end
