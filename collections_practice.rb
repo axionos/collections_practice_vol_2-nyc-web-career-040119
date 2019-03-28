@@ -63,10 +63,10 @@ def organize_schools (schools)
     location.each do |symbol, city|
       if school_list[location] == nil
         school_list[location] = [school]
-        binding.pry
+        # binding.pry
       else
         school_list[location] << school
-
+        binding.pry
       end
     end
   end
