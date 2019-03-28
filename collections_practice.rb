@@ -66,7 +66,7 @@ def organize_schools (schools)
         binding.pry
       else
         school_list[location] << school
-        
+
       end
     end
   end
